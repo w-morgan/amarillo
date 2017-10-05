@@ -1,0 +1,34 @@
+/* TEAM */
+
+	Designer: ---
+	Contact: --@--
+	Twitter: 
+	From: México
+
+	Art Director: 
+	Contact: 
+	Twitter: 
+	From: México
+
+	Web Developer: 
+	Contact: 
+	Twitter: 
+	From: México
+
+	Marketing: 
+	Contact: 
+	Twitter: 
+	From: México
+
+	Content generator: 
+	Contact: 
+	Twitter: 
+	From: México
+
+
+/* SITE */
+
+	Last update: --/--/----
+	Language: -- / --
+	Doctype:HTML5
+	IDE: Sublime Text, FileZilla, Fireworks
