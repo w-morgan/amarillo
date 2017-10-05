@@ -1,11 +1,16 @@
 /* STYLE FOR AMAR&LLO
 
-@brand-primary: ; (azul)
+@brand-primary: #F7B413; (amarillo)
 @brand-success: ; (gris)
+font-family: 'Lato', sans-serif;
 
 */
 
 /* GEN POP */
+
+body {
+	font-family: 'Lato', sans-serif;
+}
 
 /* HEADINGS */
 
@@ -20,6 +25,70 @@
 /* LISTS */
 
 /* HEADER */
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+.navbar-right {
+	color: #fff;
+	position: relative;
+    top: -85px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar-left {
+	float: none !important;
+	text-align: center;
+	margin-top: 15px;
+}
+.navbar-left>li {
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #BE9F66;
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #F7B413;
+	background: url('../img/heart.png') no-repeat 50% 15%;
+}
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.navbar-default .navbar-right>li>a {
+	color: #fff;
+	font-size: 20px;
+}
+.navbar-default .navbar-right>li {
+	background-color: #F7B413;
+}
+.navbar-default .navbar-right>li:first-of-type {
+	background-color: #fff;
+	margin-right: 20px;
+}
+.navbar-default .navbar-right>li:first-of-type>a:hover {
+	background-image: none;
+}
+.navbar-right>li>a {
+    position: relative;
+    display: block;
+    padding: 40px 7px 25px;
+}
+.navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+}
+.navbar-default .navbar-right>li>a.ico-left {
+	padding-left: 25px;
+}
+.navbar-default .navbar-right>li>a.ico-right {
+	padding-right: 25px;
+}
 
 /* FOOTER */
 
